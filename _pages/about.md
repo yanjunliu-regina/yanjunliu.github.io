@@ -17,15 +17,15 @@ Bachelor of Mathematical Sciences (Honours), Australian National University, Feb
 
 <h2 id="publications">Publications</h2>
 
+- **Black-box Optimization Algorithms for Regularized Least-squares Problems**  
+Yanjun Liu, Kevin H. Lam, Lindon Roberts (2025)  
+Accepted by IMA Journal of Numerical Analysis  
+[Preprint](https://arxiv.org/abs/2407.14915) [Software](https://github.com/yanjunliu-regina/dfols/tree/yanjun-dfols)
+
 - **Convergence Analysis of a Stochastic Heavy-ball Method for Linear ill-posed Problems**  
 Qinian Jin, Yanjun Liu (2025)  
 Journal of Computational and Applied Mathematics  
 [Paper](https://www.sciencedirect.com/science/article/pii/S037704272500216X)
-
-- **Black-box Optimization Algorithms for Regularized Least-squares Problems**  
-Yanjun Liu, Kevin H. Lam, Lindon Roberts (2025)
-Accepted by IMA Journal of Numerical Analysis
-[Preprint](https://arxiv.org/abs/2407.14915) [Software](https://github.com/yanjunliu-regina/dfols/tree/yanjun-dfols)
 
 <h2 id="talks"> Talks</h2>
 
