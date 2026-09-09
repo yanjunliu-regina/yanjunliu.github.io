@@ -30,10 +30,8 @@ Journal of Computational and Applied Mathematics
 <h2 id="talks"> Talks</h2>
 
 7th New York City Operations Day at New York, NY. 2026  
-([Link](https://sites.google.com/stern.nyu.edu/nyc-ops-day-2026/home?pli=1&authuser=0))
 
 25th Modeling and Optimization: Theory and Applications (MOPTA) Conference at Bethlehem, PA. 2026  
-([Link](https://coral.ise.lehigh.edu/mopta2026/))
 
 25th International Symposium on Mathematical Programming at Montréal, Canada. July 2024  
 ([Abstract](https://ismp2024.gerad.ca/schedule/FA/326), [Slides](https://yanjunliu-regina.github.io/files/Yanjun_Liu_ISMP_2024.pdf))
