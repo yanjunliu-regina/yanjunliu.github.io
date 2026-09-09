@@ -10,7 +10,20 @@
     {% if author.avatar contains "://" %}
     	<img src="{{ author.avatar }}" alt="{{ author.name }}">
     {% else %}
-    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
+    	<img id="author-avatar-img" src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" data-avatar-images="{{ base_path }}/images/profile.png,{{ base_path }}/images/profile_2026.jpg" class="author__avatar" alt="{{ author.name }}" style="cursor: pointer;" title="Click me!">
+    	<script>
+    	(function () {
+    		var img = document.getElementById('author-avatar-img');
+    		if (!img) return;
+    		var images = img.getAttribute('data-avatar-images').split(',');
+    		function randomize() {
+    			var next = images[Math.floor(Math.random() * images.length)];
+    			img.setAttribute('src', next);
+    		}
+    		randomize();
+    		img.addEventListener('click', randomize);
+    	})();
+    	</script>
     {% endif %}
   </div>
 
